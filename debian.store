@@ -1,1 +1,1 @@
-{"base": "7b0ccc6", "parent": "debian/rolling/pybind11_vendor", "previous": "a848681", "trim": "", "trimbase": ""}
+{"base": "e52724f", "parent": "debian/galactic/pybind11_vendor", "previous": "7ca12d4", "trim": "", "trimbase": ""}
