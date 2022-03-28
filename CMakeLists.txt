@@ -55,7 +55,7 @@ macro(build_pybind11)
   include(ExternalProject)
   ExternalProject_Add(pybind11-2.7.1
     GIT_REPOSITORY https://github.com/pybind/pybind11.git
-    GIT_TAG v2.7.1
+    GIT_TAG 787d2c88cafa4d07fb38c9519c485a86323cfcf4  # v2.7.1
     GIT_CONFIG advice.detachedHead=false
     # Suppress git update due to https://gitlab.kitware.com/cmake/cmake/-/issues/16419
     # See https://github.com/ament/uncrustify_vendor/pull/22 for details
@@ -64,6 +64,7 @@ macro(build_pybind11)
     CMAKE_ARGS
       -DCMAKE_INSTALL_PREFIX=${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}_install
       -DPYBIND11_TEST=OFF
+      -DCMAKE_INSTALL_INCLUDEDIR=include/${PROJECT_NAME}
       ${extra_cmake_args}
     # By default, pybind11 sets Py_DEBUG if the interpreter is a debug one (as
     # it is in Windows Debug).  Unfortunately, this conflicts with Py_DEBUG as
