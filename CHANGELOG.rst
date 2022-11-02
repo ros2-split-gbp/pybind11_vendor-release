@@ -2,6 +2,11 @@
 Changelog for package pybind11_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.0.1 (2022-11-02)
+------------------
+* Force pybind11 to find Python 3. (`#15 <https://github.com/ros2/pybind11_vendor/issues/15>`_)
+* Contributors: Chris Lalancette
+
 3.0.0 (2022-09-13)
 ------------------
 * Mirror rolling to master
