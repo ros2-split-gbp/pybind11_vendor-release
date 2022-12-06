@@ -2,24 +2,16 @@
 Changelog for package pybind11_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-3.0.2 (2022-12-06)
+2.4.2 (2022-12-06)
 ------------------
-* Add missing buildtool dependency on git (`#19 <https://github.com/ros2/pybind11_vendor/issues/19>`_)
-* Update maintainers (`#17 <https://github.com/ros2/pybind11_vendor/issues/17>`_)
-* Contributors: Audrow Nash, Scott K Logan
+* Add missing buildtool dependency on git (`#20 <https://github.com/ros2/pybind11_vendor/issues/20>`_)
+* Contributors: Scott K Logan
 
-3.0.1 (2022-11-02)
+2.4.1 (2022-05-10)
 ------------------
-* Force pybind11 to find Python 3. (`#15 <https://github.com/ros2/pybind11_vendor/issues/15>`_)
-* Contributors: Chris Lalancette
-
-3.0.0 (2022-09-13)
-------------------
-* Mirror rolling to master
-* Update maintainers (`#14 <https://github.com/ros2/pybind11_vendor/issues/14>`_)
 * Update to pybind11 2.9.1.
 * Rename patch file for history continuity.
-* Contributors: Audrow Nash, Steven! Ragnarök, methylDragon
+* Contributors: Steven! Ragnarök
 
 2.4.0 (2022-03-28)
 ------------------
