@@ -2,28 +2,10 @@
 Changelog for package pybind11_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.4.2 (2022-12-06)
+2.2.7 (2022-12-06)
 ------------------
-* Add missing buildtool dependency on git (`#20 <https://github.com/ros2/pybind11_vendor/issues/20>`_)
+* Add missing buildtool dependency on git (`#21 <https://github.com/ros2/pybind11_vendor/issues/21>`_)
 * Contributors: Scott K Logan
-
-2.4.1 (2022-05-10)
-------------------
-* Update to pybind11 2.9.1.
-* Rename patch file for history continuity.
-* Contributors: Steven! Ragnarök
-
-2.4.0 (2022-03-28)
-------------------
-* Use sha256 hash instead of tag (`#12 <https://github.com/ros2/pybind11_vendor/issues/12>`_)
-* Install headers to include/${PROJECT_NAME} (`#11 <https://github.com/ros2/pybind11_vendor/issues/11>`_)
-* Contributors: Shane Loretz
-
-2.3.0 (2022-01-14)
-------------------
-* Update pybind11 to 2.7.1. (`#10 <https://github.com/ros2/pybind11_vendor/issues/10>`_)
-  This is the version that is shipped in Ubuntu 22.04.
-* Contributors: Chris Lalancette
 
 2.2.6 (2020-12-10)
 ------------------
