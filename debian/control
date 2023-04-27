@@ -1,0 +1,12 @@
+Source: ros-rolling-pybind11-vendor
+Section: misc
+Priority: optional
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), git, pybind11-dev, ros-rolling-ament-cmake, ros-rolling-ros-workspace
+Homepage: https://github.com/pybind/pybind11
+Standards-Version: 3.9.2
+
+Package: ros-rolling-pybind11-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, pybind11-dev, ros-rolling-ros-workspace
+Description: Wrapper around pybind11.
